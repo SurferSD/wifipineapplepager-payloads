@@ -16,7 +16,7 @@ CHECK_INTERVAL=2  # Minutes between checks
 # INTERNAL CONFIGURATION (don't edit)
 # =============================================================================
 
-INSTALL_DIR="/root/payloads/user/notifications/gv_alerts"
+INSTALL_DIR="/root/payloads/user/general/gv_alerts"
 LAST_HASH_FILE="$INSTALL_DIR/.last_hash"
 CRON_ENTRY="*/$CHECK_INTERVAL * * * * $INSTALL_DIR/payload.sh --check"
 
